@@ -8,3 +8,15 @@ td{
     text-align: center;
     font-size: 30px;
 }
+
+#solutions-info{
+    display: none;
+}
+
+#crossword-info{
+    display: none;
+}
+
+#show-solution{
+    display: none;
+}

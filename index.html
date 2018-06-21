@@ -17,11 +17,36 @@
         <div class="container">
             <h1>Crossword!</h1>
 
-            <button id="generate" class="btn">Generate puzzle</button>
+            <button id="generate" class="btn">Generate Puzzle</button>
+
+            <input id="easy" type="checkbox"/>
+            <label for="easy">Show Solutions Below</label>
 
             <hr>
 
+            <span id="todo">
+                //TODO
+                <lu>
+                    <li>Make selecting the field nicer</li>
+                    <li>Add more words</li>
+                    <li>Variable puzzle size?</li>
+                    <li>Figure out a better way to stop the generation (sometimes the puzzle is really small)</li>
+                </lu>
+            </span>
+
+            <span id="crossword-info">
+                Fill out the crossword puzzle. Hover over the arrows to see a description of the required words.<br>
+                Note that some categories may show up twice, but each word is only valid once.
+            </span>
+
             <table id="crossword"></table>
+
+            <button id="show-solution" class="btn btn-success">Show Solutions</button>
+
+            <hr>
+
+            <span id="solutions-info">Input these words into the puzzle:</span>
+            <lu id="solutions"></lu>
         </div>
     </body>
 </html>
